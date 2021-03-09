@@ -1,0 +1,5 @@
+l = float(input('Digite a largura: '))
+a = float(input('Digite a altura: '))
+t = int(2)
+print(f'1 litro de tinta pinta 2m², a área a ser pintada tem: {l*a:.2f}m2')
+print(f'Você precisa de {(l*a)/2} litros de tinta para pintar a área toda')
